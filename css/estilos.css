@@ -323,6 +323,8 @@ body{
     text-align: justify;
     font-variant-caps: all-small-caps;
     color: #eeeeee7e;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 .nav__paragraph h1{
     font-family: 'Poppins', sans-serif;
