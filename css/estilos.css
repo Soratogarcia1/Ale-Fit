@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400&family=Roboto:wght@300;500;900&display=swap'); 
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;800&family=Open+Sans&display=swap');
+
 :root{
     --padding-container: 100px 0;
     --color-title: rgb(238, 201, 15);
@@ -209,8 +211,11 @@ body{
 }
 
 .hojaInfoS3 h2{
-    font-weight: 900;
-    font-size: 50px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
     width: 100%;
     text-align: center;
 }
@@ -255,6 +260,56 @@ body{
     border-radius: 25px;
     background-color: #EEEEEE;
 }
+.hojaInfoS4{
+    background-color: #EEEEEE;
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.hojaInfoS4 h2{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.hojaInfoS4 h3{
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+}
+
+.hojaInfoS4 p{
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hojaInfoS4 button{
+    background-color: var(--color-title);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 60px;
+    margin-top: 30px;
+}
+.hojaInfoS4 button:hover{
+    background-color: black;
+    color: #EEEEEE;
+}
 /*Seccion 5*/
 
 .seccion5{
@@ -297,4 +352,28 @@ body{
 .buscador button:hover{
     background-color: #EEEEEE;
     color: black;
+}
+/*seccion 6*/
+
+.seccion6{
+    background-color: #E9BB0A;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.hojaInfoS6{
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mapaS6{
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
