@@ -445,15 +445,17 @@ body{
     border: none;
     width: 550px;
     height: 45px;
-}
-
-.buscadorS6 input::placeholder{
     color: black;
     font-weight: 300;
     font-size: 18px;
     padding-left: 15px;
 }
 
+.buscadorS6 input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    font-size: 18px;
+}
 
 /*seccion 7*/
 .nav__pagraph{
