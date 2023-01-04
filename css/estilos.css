@@ -169,6 +169,12 @@ body{
 
 /*Seccion 2*/
 
+
+ .container{
+    width: fit-content;
+    height: 100%;
+ }
+
 .imgSec2{
     width: 100%;
     z-index: -1;
@@ -353,6 +359,77 @@ body{
     background-color: #EEEEEE;
     color: black;
 }
+
+/*seccion 6*/
+ .nav__pagraph{
+     padding: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     width: 100%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .nav__paragraph p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 35;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-variant-caps: all-small-caps;
+    color: #eeeeee7e;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.nav__paragraph h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 35;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-variant-caps: all-small-caps;
+    color: #eeeeee;
+}
+
+/*Menu2*/
+.nav__container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    width: 100%;
+    margin-top: 100px;
+}
+.nav__bar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 5em;
+}
+.nav__items{
+    list-style: none;
+}
+.nav__links{
+    color: var(--color-title) ;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    padding-top: 15px;
+}
+.nav__links:hover{
+    color: #EEEEEE;
+    border-top: 3px solid black;
+}
+.activado_link{
+    color: #EEEEEE;
+    border-top: 3px solid var(--color-title); 
+}
+.activado_link:hover{
+    border: none;
+    color: #EEEEEE;  
+}
+
 /*seccion 6*/
 
 .seccion6{
