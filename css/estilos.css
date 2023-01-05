@@ -526,3 +526,30 @@ body{
     border: none;
     color: #EEEEEE;  
 }
+.seccion7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+/*Resdes*/
+.SecRedes{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.SecRedes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.SecRedes a img{
+    width: 75%;
+}
