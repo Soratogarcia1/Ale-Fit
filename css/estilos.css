@@ -66,11 +66,31 @@ body{
     color: #EEEEEE;
     border-top: 3px solid black;
 }
+
+.nav__links2{
+    color: var(--color-title) ;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;nav__links
+    padding-top: 15px;
+}
+.nav__links2:hover{
+    color: #EEEEEE;
+}
 .activado_link{
     color: #EEEEEE;
     border-top: 3px solid var(--color-title); 
 }
 .activado_link:hover{
+    border: none;
+    color: #EEEEEE;  
+}
+
+.activado_link2{
+    color: #EEEEEE;
+}
+.activado_link2:hover{
     border: none;
     color: #EEEEEE;  
 }
@@ -495,7 +515,7 @@ body{
     align-items: center;
     color: #EEEEEE;
     width: 100%;
-    margin-top: 100px;
+    margin: 50px 0 25px;
 }
 .nav__bar{
     display: grid;
