@@ -1,25 +1,66 @@
+/*Seccion buscadores*/
 .joS1{
     background-color: #eeeeee;
-    padding-top: 50px;
-}
-
-.joS1 h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+ .joS1 h2{
     width: 100%;
     text-align: center;
     font-weight: 900;
     font-size: 65px;
-    letter-spacing: 25px;
-}
-
-.segLetJoS1{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+ }
+ 
+ .joBusqS1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-}
-.buscadoresjoS1{
+ }
+ 
+ .jobusqueS1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+    padding-top: 30px;
+    width: 100%;
+ }
+ 
+ .jobusqueS1 h3{
+    color: rgb(238, 201, 15);
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+ }
+ 
+ 
+ .jobusqueS1 input{
+    background-color: #DFE2F7;
+    border-radius: 25px;
+    border: none;
+    height: 45px;
+    width: 100%;
+ 
+ }
+ 
+ .jobusqueS1 button{
+    background-color: black;
+    color: #eeeeee;
+    border:none;
+    border-radius: 15px;
+    padding: 15px 100px;
+    margin-top: 35px;
+ }
+ 
+ .jobusqueS1 button:hover{
+    background-color: rgb(238, 201, 15);
+    color: black;
+    border: none;
+ }
