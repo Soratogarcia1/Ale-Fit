@@ -573,3 +573,22 @@ body{
 .SecRedes a img{
     width: 75%;
 }
+
+/*Extras*/
+.letrerosAmarillos{
+    color: rgb(238, 201, 15);
+   font-weight: 900;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.llenadoForm{
+    background-color: #DFE2F7;
+   border-radius: 25px;
+   border: none;
+   height: 45px;
+   width: 650px;
+   padding-left: 20px;
+}
+
